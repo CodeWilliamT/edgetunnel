@@ -1,0 +1,10 @@
+name = "edgetunnel"
+main = "worker.js"              # 改成你实际的 JS 文件名
+compatibility_date = "2026-07-30"
+
+[vars]
+# 根据你的 MD 文档填入需要的环境变量，例如：
+# UUID = "你的UUID"
+SUB_PATH="botwill"	#域名/订阅路径
+PROXY_IP	proxyip.cmliussss.net	#反代地址和端口, 端口不填默认 443
+FAKE_WEB	baidu.com	#伪装网页
