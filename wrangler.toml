@@ -1,5 +1,5 @@
 name = "edgetunnel"
-main = "CF-Worker/_worker.js"              # 改成你实际的 JS 文件名
+main = "_worker.js"              # 改成你实际的 JS 文件名
 compatibility_date = "2026-07-30"
 
 [vars]
