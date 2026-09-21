@@ -1,32 +1,19 @@
-# Edge Tunnel
+全自动优选CF的IP，包含美国US，日本JP，新加坡SG，德国DE，荷兰NL等cloudflare每天每小时自动优选IP，自动生成CF免费Vless节点。
 
-Edge Tunnel 是一个基于 Cloudflare Pages 的免费代理解决方案, 配置精简, 适合新手快速上手
+<b>手搓CF节点极简版</b>：<a href=https://github.com/gslege/CloudflareIP/blob/main/CF-Worker/_worker.js>_worker.js</a>，推荐使用Pages部署，无需自定义域名而且稳定，默认UUID：04c808e2-0b59-47b0-a54b-32fc7ef1c902 建议部署时修改，然后用<b><a href=https://ip.cloudip.ggff.net>手搓CF节点生成器</a></b>生成节点导入到v2ray或karing中使用。
 
-## 项目特点
+复刻本仓库然后部署到cloudflare上，即可生成自己的节点生成器页面！
 
-- **免费**：利用 Cloudflare Pages 免费托管
-- **易用**：通过环境变量灵活配置
-- **兼容性强**：支持 v2ray 和 clash 客户端
+<b>手搓CF节点生成器：https://ip.cloudip.ggff.net</b>
 
-> **欢迎各位大佬指正代码中存在的问题！**
+<b>免费Vless节点a</b>：https://free.cndyw.ggff.net/sub
 
-如果本项目对您有帮助, 请点 Star 支持 !
+<b>免费Vless节点b</b>：https://misaka.cndyw.ggff.net/sub
 
-## 使用方法
+<b>免费自适应节点c：https://suba.cndyw.ggff.net/suba?sub</b>
 
-1. **Fork 本项目**
-2. **创建 Cloudflare Pages**
-- **导入您 Fork 的仓库**
-- **添加环境变量**
-- **保存并部署**
-4. **导入订阅(域名/订阅路径)并开始使用**
+<b>免费自适应节点d：https://subb.cndyw.ggff.net/subb?sub</b>
 
-## 环境变量说明
+<b>免费Vless节点e</b>：https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt
 
-| 变量名 | 示例值 | 说明 |
-|-|-|-|
-| SUB_PATH | `订阅路径` | 域名/`订阅路径` |
-| PROXY_IP | `proxyip.cmliussss.net` | 反代地址和端口, 端口不填默认 `443` |
-| FAKE_WEB | `baidu.com` | 伪装网页 |
-
-## 不再提供优选IP
+公益节点用的人多，会消耗完每天的流量额度，建议使用<a href=https://github.com/gslege/CloudflareIP/blob/main/CF-Worker/_worker.js>_worker.js</a>自己部署！
