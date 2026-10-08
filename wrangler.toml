@@ -2,12 +2,6 @@ name = "edgetunnel"
 main = "_worker.js"              # 改成你实际的 JS 文件名
 compatibility_date = "2026-07-30"
 
-[vars]
-# 根据你的 MD 文档填入需要的环境变量，例如：
-# UUID = "你的UUID"
-SUB_PATH = "mytunnel"	#域名/订阅路径
-PROXY_IP = "pyip.ygkkk.dpdns.org"	#反代地址和端口, 端口不填默认 443
-FAKE_WEB = "baidu.com"	#伪装网页"
 
 [observability]
 enabled = false
@@ -15,12 +9,12 @@ head_sampling_rate = 1
 redact_query_string = false
 
 [observability.logs]
-enabled = true
+enabled = false
 head_sampling_rate = 1
-invocation_logs = true
-persist = true
+invocation_logs = false
+persist = false
 
 [observability.traces]
-enabled = true
+enabled = false
 head_sampling_rate = 1
-persist = true
+persist = false
