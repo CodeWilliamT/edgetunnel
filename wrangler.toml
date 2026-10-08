@@ -1,20 +1,7 @@
 name = "edgetunnel"
-main = "_worker.js"              # 改成你实际的 JS 文件名
+main = "worker.js"              # 改成你实际的 JS 文件名
 compatibility_date = "2026-07-30"
 
-
-[observability]
-enabled = false
-head_sampling_rate = 1
-redact_query_string = false
-
-[observability.logs]
-enabled = false
-head_sampling_rate = 1
-invocation_logs = false
-persist = false
-
-[observability.traces]
-enabled = false
-head_sampling_rate = 1
-persist = false
+[vars]
+# 根据你的 MD 文档填入需要的环境变量，例如：
+# UUID = "你的UUID"
